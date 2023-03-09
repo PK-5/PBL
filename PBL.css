@@ -9,6 +9,20 @@
     font-family: 'Poppins', sans-serif; 
 } 
 
+.fa-bars {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #333;  
+    font-weight: 700; 
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+    
+
+}
+
 body { 
     display: flex; 
     justify-content: center; 
@@ -19,6 +33,7 @@ body {
 
 #navigation { 
     position: relative; 
+    display: none;
 }
 
 #navigation a{ 
@@ -94,5 +109,11 @@ body {
 } 
 
 #clsbtn{
-    
+
+}
+
+/* header */
+
+#header{
+    background: #C3DAED;
 }
