@@ -17,16 +17,16 @@ body {
     overflow: hidden; 
 } 
 
-ul { 
+#navigation { 
     position: relative; 
 }
 
-ul li{ 
+#navigation a{ 
     list-style: none; 
-    text-align: center; 
+    text-align: center;    
 } 
 
-ul li a { 
+#navigation a { 
     color: #333; 
     text-decoration: none; 
     font-size: 3em; 
@@ -36,16 +36,16 @@ ul li a {
     transition: 0.5s; 
 } 
 
-ul:hover li a { 
+#navigation :hover a { 
     color: #0002; 
 } 
 
-ul li:hover a { 
+#navigation :hover a { 
     color: #000; 
     background: rgba(255,255,255,1); 
 } 
 
-ul li a:before { 
+#navigation a:before { 
     content: ''; 
     position: absolute; 
     top: 50%; 
@@ -65,7 +65,7 @@ ul li a:before {
     transition: letter-spacing 0.5s,left 0.5s; 
 } 
 
-ul li a:hover:before { 
+#navigation a:hover:before { 
     content: attr(data-text); 
     opacity: 1; left: 50%; 
     letter-spacing: 10px; 
@@ -73,32 +73,26 @@ ul li a:hover:before {
     height: 1800px; 
 } 
 
-ul li:nth-child(6n+1) 
-a:before { 
+#home:before { 
     background: #81ecec; 
 } 
 
-ul li:nth-child(6n+2) 
-a:before { 
+#bakery:before { 
     background: #ff7675; 
 }
 
-ul li:nth-child(6n+3) 
-a:before { 
+#honey:before { 
     background: #55efc4; 
 } 
 
-ul li:nth-child(6n+4) 
-a:before { 
+#contact:before { 
     background: #a29bfe; 
 } 
 
-ul li:nth-child(6n+5)
- a:before { 
+#feedback:before { 
     background: #fd79a8; 
 } 
 
-ul li:nth-child(6n+6) 
-a:before { 
-    background: #ffeaa7; 
+#clsbtn{
+    
 }
