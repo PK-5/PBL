@@ -23,7 +23,7 @@
 
 }
 
-body { 
+#navbody { 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -89,31 +89,40 @@ body {
 } 
 
 #home:before { 
-    background: #81ecec; 
+    background: #F2C799; 
 } 
 
 #bakery:before { 
-    background: #ff7675; 
+    background: #ECC7C8; 
 }
 
 #honey:before { 
-    background: #55efc4; 
+    background: #C3DAED; 
 } 
 
 #contact:before { 
-    background: #a29bfe; 
+    background: #DCEDC3; 
 } 
 
 #feedback:before { 
-    background: #fd79a8; 
+    background: #E1C3ED; 
 } 
-
-#clsbtn{
-
-}
 
 /* header */
 
 #header{
-    background: #C3DAED;
+    background-image:url(Splash.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#menu{
+  font-weight: 100;
+  font-size: 40px;
+  margin-left: 5%;
+}
+
+#opnbtn{
+    color: #000;
 }
