@@ -14,7 +14,7 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     color: #333;  
-    font-weight: 700; 
+    font-weight: 100; 
     position: absolute;
     left: 30px;
     top: 20px;
@@ -47,7 +47,7 @@
     font-size: 3em; 
     padding: 5px 20px; 
     display: inline-flex; 
-    font-weight: 700; 
+    font-weight: 200; 
     transition: 0.5s; 
 } 
 
@@ -125,4 +125,11 @@
 
 #opnbtn{
     color: #000;
+}
+
+#logo{
+    text-align: center;
+    
+    
+
 }
