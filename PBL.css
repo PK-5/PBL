@@ -130,6 +130,81 @@
 #logo{
     text-align: center;
     
+  
     
+}
+
+#intro{
+
+    margin-left:10%;
+    margin-right:10%;
+    text-align: center;
+}
+
+#footer{
+    background-image:url(Splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding:2%;
+}
+
+#links{
+    width: 70%;
+    text-align: justify;
+}
+
+.fa-whatsapp{
+    font-size: 30px;
+}
+
+.fa-envelope{
+    font-size: 30px;
+}
+
+/* Index page */
+
+#info{
+    width: 100%;
+}
+
+
+ #heading{
+
+    font-weight: 400;
+
 
 }
+
+#description{
+    font-weight: 100;
+ 
+}
+
+#right {
+
+    width: 20%;
+    float: right;
+}
+
+#left{
+
+    width: 20%;
+
+}
+
+#Honeyimg{
+
+    width:80%;
+    height:60%;
+}
+
+#Bakeryimg{
+
+    width:70%;
+    height:60%;
+}
+
+
+
+
