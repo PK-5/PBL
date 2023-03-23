@@ -206,5 +206,45 @@
 }
 
 
+/* Products */
+
+#middle{
+    width: 80%;
+    margin: auto;
+}
+
+#products{
+
+    width: 90%;
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-top: 5%;
+
+}
+
+#productsHeading{
+    font-weight: 100;
+    text-align: center;
+    font-size: 80px;
+    
+}
+
+#productImg{
+    width: 40%;
+    height:40%;
+    border-radius: 20%;
+
+}
+
+#productdestitle{
+
+    font-size:20px;
+
+}
+
+#productprice{
+    font-weight:bold;
+}
 
 
