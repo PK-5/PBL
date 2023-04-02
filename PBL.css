@@ -248,5 +248,15 @@
 #contactinfo{
     margin-left: 20%;
     font-weight: 100;
+    font-size: 20px;
+    text-align: center;
 }
 
+#contacttable{
+    width: 80%;
+    
+}
+
+#contacticon{
+    font-size: 30px;
+}
