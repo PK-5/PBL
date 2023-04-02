@@ -154,11 +154,7 @@
     text-align: justify;
 }
 
-.fa-whatsapp{
-    font-size: 30px;
-}
-
-.fa-envelope{
+#iconfooter{
     font-size: 30px;
 }
 
@@ -247,4 +243,10 @@
     font-weight:bold;
 }
 
+/* Contact page */
+
+#contactinfo{
+    margin-left: 20%;
+    font-weight: 100;
+}
 
