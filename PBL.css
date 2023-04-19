@@ -7,10 +7,13 @@
     padding: 0; 
     box-sizing: border-box; 
     font-family: 'Poppins', sans-serif; 
+  
 } 
+
 
 .fa-bars {
     font-size: 30px;
+    font-size: 2vw;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     color: #333;  
@@ -45,6 +48,7 @@
     color: #333; 
     text-decoration: none; 
     font-size: 3em; 
+    font-size: 4vw;
     padding: 5px 20px; 
     display: inline-flex; 
     font-weight: 200; 
@@ -120,6 +124,7 @@
 #menu{
   font-weight: 100;
   font-size: 40px;
+  font-size: 3vw;
   margin-left: 5%;
 }
 
@@ -156,6 +161,7 @@
 
 #iconfooter{
     font-size: 30px;
+    font-size: 2vw;
 }
 
 /* Index page */
@@ -223,6 +229,7 @@
     font-weight: 100;
     text-align: center;
     font-size: 80px;
+    font-size: 5vw;
     
 }
 
@@ -236,6 +243,7 @@
 #productdestitle{
 
     font-size:20px;
+    font-size: 1.5vw;
 
 }
 
@@ -249,6 +257,7 @@
     margin-left: 20%;
     font-weight: 100;
     font-size: 20px;
+    font-size: 1.5vw;  
     text-align: center;
 }
 
@@ -259,4 +268,5 @@
 
 #contacticon{
     font-size: 30px;
+    font-size: 2vw;
 }
