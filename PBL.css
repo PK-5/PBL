@@ -281,20 +281,19 @@
 
 #logo{
     text-align: center;
-    /*background-image: url(headerbake.png);
-    background-repeat:repeat-x;
-    background-position-y: center; */
+
 
 }
 
 #flex-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
   }
   
 
-#headerbake{
-    margin-top: 30%;
-}
 
 
 #middle{
@@ -303,10 +302,9 @@
 }
 
 #products{
-
-    width: 90%;
+    width: 80%;
     margin-right: 10%;
-    margin-left: 15%;
+    margin-left: 18%;
     margin-top: 5%;
     margin-top: 5%;
 
