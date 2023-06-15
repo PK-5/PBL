@@ -1,4 +1,21 @@
+//creating const for the cart button and the products 
+const cartBtn = document.querySelector("#cartBtn");
+const cinnamonRollsName = document.querySelector(".cinnamonRollsName").innerHTML;
+const cinnamonRollsPrice = document.querySelector(".cinnamonRollsPrice").innerHTML;
 
+cartBtn.addEventListener("click", function() {
+
+localStorage.setItem('Name', cinnamonRollsName);
+localStorage.setItem('Price', cinnamonRollsPrice);
+
+} )
+
+
+var Name = localStorage.getItem('Name');
+var Price = localStorage.getItem('Price');
+const Cart = document.querySelector("#cart");
+
+Cart.innerHTML= ( Name + Price );
 
 function openNav() {
   document.getElementById("navigation").style.display = "block";
@@ -18,3 +35,6 @@ function closeNav() {
   document.getElementById("footer").style.display= "block";
 
 }
+
+
+
