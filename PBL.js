@@ -13,9 +13,7 @@ localStorage.setItem('Price', cinnamonRollsPrice);
 
 var Name = localStorage.getItem('Name');
 var Price = localStorage.getItem('Price');
-const Cart = document.querySelector("#cart");
 
-Cart.innerHTML= ( Name + Price );
 
 function openNav() {
   document.getElementById("navigation").style.display = "block";
